@@ -62,8 +62,7 @@ If you do not use any dependency management tool, you can find the latest standa
 Writing your own WebSocket Server
 ---------------------------------
 
-The `org.java_websocket.server.WebSocketServer` abstract class implements the
-server-side of the
+The `org.java_websocket.server.WebSocketServer` abstract class implements the server-side of the
 [WebSocket Protocol](http://www.whatwg.org/specs/web-socket-protocol/).
 A WebSocket server by itself doesn't do anything except establish socket
 connections though HTTP. After that it's up to **your** subclass to add purpose.
