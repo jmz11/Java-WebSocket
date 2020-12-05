@@ -75,6 +75,7 @@ public class Issue825Test {
       public void onError(Exception ex) {
       }
     };
+
     WebSocketServer server = new MyWebSocketServer(port, countServerDownLatch,
         countClientMessageLatch);
 
